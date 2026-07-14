@@ -1,0 +1,6 @@
+name = "greedy_three_sumfree"
+version = "0.1.0"
+defaultTargets = ["GreedyThreeSumfree.PaperProofs"]
+
+[[lean_lib]]
+name = "GreedyThreeSumfree"
