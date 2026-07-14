@@ -6,8 +6,8 @@ namespace RBand
 /--
 An ordered triple of distinct earlier candidates summing to `target`.
 
-This is the regular `r`-band analogue of the project-level `TripleSumFrom`
-predicate, specialized to the R-band candidate set.
+This is the regular `r`-band analogue of a triple-sum obstruction predicate,
+specialized to the R-band candidate set.
 -/
 def CandidateTripleSumFrom (r h e target : Nat) : Prop :=
   ∃ x y z : Nat,

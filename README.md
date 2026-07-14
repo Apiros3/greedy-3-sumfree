@@ -14,6 +14,6 @@ cd formal
 lake build
 ```
 
-This builds the Lean package using the toolchain pinned in
+This builds the Lean package using the toolchain in
 `formal/lean-toolchain`.
 
